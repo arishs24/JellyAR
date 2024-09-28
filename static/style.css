@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.upload-container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#upload-video {
+    margin-bottom: 10px;
+}
+
+#process-video {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#process-video:hover {
+    background-color: #0056b3;
+}
+
+#video-preview {
+    width: 100%;
+    margin-top: 20px;
+}
